@@ -1,0 +1,104 @@
+﻿#product-summary-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    border: solid grey 0.2px;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 255px;
+}
+
+#options-search-label {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+#options-search-save {
+    margin-right: 10px;
+}
+
+#options-buttons-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.options-buttons {
+    border: .1px solid grey;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#product-types {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+#model-year-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    font-size: 11px;
+}
+
+#model-year-label {
+    margin-right: 10px;
+}
+
+.model-year-input {
+    width: 50px;
+}
+
+#model-year-input-from {
+    margin-right: 20px;
+}
+
+#model-year-input-to {
+    margin-left: 20px;
+}
+#products-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 30px;
+}
+
+#products-div-label {
+    margin-bottom: 20px;
+}
+
+#cards-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.product-summary-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}

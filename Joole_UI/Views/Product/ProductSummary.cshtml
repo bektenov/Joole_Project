@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "ProductSummary";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - TropicalServer</title>
+    <link href="~/Content/productsummary.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script>
+
+        $("#product-type-button").accordion({
+            collapsible: true,
+            active: false
+        });
+
+    </script>
+    @Styles.Render("~/Content/productsummary")
+    @Scripts.Render("~/Content/Product.js")
+</head>
+<body>
+    <div id="product-summary-page">
+        <div id="options">
+            <div id="options-search-bar">
+                <label id="options-search-label">Search:</label>
+                <button class="options-search-buttons" id="options-search-save">Save</button>
+                <button class="options-search-buttons" id="options-search-clear">Clear</button>
+            </div>
+            <div id="options-buttons-div">
+                <div class="options-buttons" id="options-buttons-product">Product</div>
+                <div class="options-buttons" id="options-buttons-project">Project</div>
+            </div>
+            <div class="collapsible" id="product-type-button">
+                <h3>Product Type</h3>
+                <div id="product-types">
+                    <div class="product-type">Product Test 1</div>
+                    <div class="product-type">Product Test 2</div>
+                </div>
+            </div>
+            <div id="model-year-field">
+                <label id="model-year-label">Model Year:</label>
+                <input type="text" class="model-year-input" id="model-year-input-from" />
+                -
+                <input type="text" class="model-year-input" id="model-year-input-to" />
+            </div>
+            <div id="tech-specs-dropdown">
+                <label id="tech-specs-label">Technical Specifications</label>
+                <div id="airflow-field">
+                    <label id="airflow-field-label">Airflow(CFM)</label>
+                    <input type="range" id="airflow-field-range" />
+                </div>
+                <div id="maxpower-field">
+                    <label id="maxpower-field-label">Max Power (W)</label>
+                    <input type="range" id="maxpower-field-range" />
+                </div>
+                <div id="sound-field">
+                    <label id="sound-field-label">Sound at max speed (dBA)</label>
+                    <input type="range" id="sound-field-range" />
+                </div>
+                <div id="fanspeed-field">
+                    <label id="fanspeed-field-label">Fan sweep diameter(in)</label>
+                    <input type="range" id="fanspeed-field-range" />
+                </div>
+            </div>
+
+        </div>
+        <div id="products-div">
+            <label id="products-div-label">Mechanical > HVAC Fans</label>
+            <div id="cards-div">
+                <div class="product-summary-card">
+                    <img class="product-summary-img" />
+                    <label class="product-summary-company">Big Ass</label>
+                    <label class="product-summary-series">Haiku H Series</label>
+                    <label class="product-summary-id">S3150</label>
+                    <label class="product-summary-airflow">5.467 CFM</label>
+                    <label class="product-summary-maxspeed">21.14 W at max speed</label>
+                    <label class="product-summary-sound">35 dBa at max speed</label>
+                    <label class="product-summary-fanspeed">60" fan sweep diameter</label>
+                    <input class="product-summary-card-compare" type="checkbox" /> <label class="product-summary-card-compare-label">Compare</label>
+                    <button class="product-summary-card-add" type="submit">Add to</button>
+                </div>
+                <div class="product-summary-card">
+                    <img class="product-summary-img" />
+                    <label class="product-summary-company">Big Ass</label>
+                    <label class="product-summary-series">Haiku H Series</label>
+                    <label class="product-summary-id">S3150</label>
+                    <label class="product-summary-airflow">5.467 CFM</label>
+                    <label class="product-summary-maxspeed">21.14 W at max speed</label>
+                    <label class="product-summary-sound">35 dBa at max speed</label>
+                    <label class="product-summary-fanspeed">60" fan sweep diameter</label>
+                    <input class="product-summary-card-compare" type="checkbox" /> <label class="product-summary-card-compare-label">Compare</label>
+                    <button class="product-summary-card-add" type="submit">Add to</button>
+                </div>
+                <div class="product-summary-card">
+                    <img class="product-summary-img" />
+                    <label class="product-summary-company">Big Ass</label>
+                    <label class="product-summary-series">Haiku H Series</label>
+                    <label class="product-summary-id">S3150</label>
+                    <label class="product-summary-airflow">5.467 CFM</label>
+                    <label class="product-summary-maxspeed">21.14 W at max speed</label>
+                    <label class="product-summary-sound">35 dBa at max speed</label>
+                    <label class="product-summary-fanspeed">60" fan sweep diameter</label>
+                    <input class="product-summary-card-compare" type="checkbox" /> <label class="product-summary-card-compare-label">Compare</label>
+                    <button class="product-summary-card-add" type="submit">Add to</button>
+                </div>
+                <div class="product-summary-card">
+                    <img class="product-summary-img" />
+                    <label class="product-summary-company">Big Ass</label>
+                    <label class="product-summary-series">Haiku H Series</label>
+                    <label class="product-summary-id">S3150</label>
+                    <label class="product-summary-airflow">5.467 CFM</label>
+                    <label class="product-summary-maxspeed">21.14 W at max speed</label>
+                    <label class="product-summary-sound">35 dBa at max speed</label>
+                    <label class="product-summary-fanspeed">60" fan sweep diameter</label>
+                    <input class="product-summary-card-compare" type="checkbox" /> <label class="product-summary-card-compare-label">Compare</label>
+                    <button class="product-summary-card-add" type="submit">Add to</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
