@@ -1,0 +1,6 @@
+C:\Users\bekbo\source\repos\Joole_Repository\bin\Debug\Joole_Repository.dll
+C:\Users\bekbo\source\repos\Joole_Repository\bin\Debug\Joole_Repository.pdb
+C:\Users\bekbo\source\repos\Joole_Repository\obj\Debug\Joole_Repository.csproj.AssemblyReference.cache
+C:\Users\bekbo\source\repos\Joole_Repository\obj\Debug\Joole_Repository.csproj.CoreCompileInputs.cache
+C:\Users\bekbo\source\repos\Joole_Repository\obj\Debug\Joole_Repository.dll
+C:\Users\bekbo\source\repos\Joole_Repository\obj\Debug\Joole_Repository.pdb

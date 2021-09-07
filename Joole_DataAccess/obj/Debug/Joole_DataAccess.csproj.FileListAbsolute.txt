@@ -1,0 +1,12 @@
+C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\Joole_DataAccess.dll
+C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\Joole_DataAccess.pdb
+C:\Users\bekbo\source\repos\Joole_DataAccess\obj\Debug\Joole_DataAccess.csproj.AssemblyReference.cache
+C:\Users\bekbo\source\repos\Joole_DataAccess\obj\Debug\Joole_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\bekbo\source\repos\Joole_DataAccess\obj\Debug\Joole_DataAccess.dll
+C:\Users\bekbo\source\repos\Joole_DataAccess\obj\Debug\Joole_DataAccess.pdb
+C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\Joole_DataAccess.dll.config
+C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bekbo\source\repos\Joole_DataAccess\obj\Debug\Joole_DataAccess.csproj.CopyComplete

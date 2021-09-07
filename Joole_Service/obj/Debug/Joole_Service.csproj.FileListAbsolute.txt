@@ -1,0 +1,6 @@
+C:\Users\bekbo\source\repos\Joole_Service\bin\Debug\Joole_Service.dll
+C:\Users\bekbo\source\repos\Joole_Service\bin\Debug\Joole_Service.pdb
+C:\Users\bekbo\source\repos\Joole_Service\obj\Debug\Joole_Service.csproj.AssemblyReference.cache
+C:\Users\bekbo\source\repos\Joole_Service\obj\Debug\Joole_Service.csproj.CoreCompileInputs.cache
+C:\Users\bekbo\source\repos\Joole_Service\obj\Debug\Joole_Service.dll
+C:\Users\bekbo\source\repos\Joole_Service\obj\Debug\Joole_Service.pdb
