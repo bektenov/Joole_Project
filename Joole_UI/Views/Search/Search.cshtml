@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+}
+
+
+<head>
+    <link rel="#" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/Content/Search.css">
+
+
+</head>
+
+<img src="~/Content/Images/JooleImg.png" id="jooleImg" margin-top="100px" />
+
+
+<h3> Building Product Selection Platform</h3>
+
+
+
+<div class="d-flex flex-row">
+
+    <div class="dropdown p-2">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+            Category
+            <span class="caret"></span>
+        </button>
+        @* for each here with our model data *@
+        <ul class="dropdown-menu " id="Category">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+        </ul>
+
+    </div>
+
+
+</div>
