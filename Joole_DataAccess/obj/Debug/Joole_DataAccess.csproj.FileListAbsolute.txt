@@ -10,3 +10,5 @@ C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\EntityFramework.SqlServer
 C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\EntityFramework.xml
 C:\Users\bekbo\source\repos\Joole_DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\bekbo\source\repos\Joole_DataAccess\obj\Debug\Joole_DataAccess.csproj.CopyComplete
+C:\Users\kmell\Source\Repos\Joole_Project\Joole_DataAccess\obj\Debug\Joole_DataAccess.dll
+C:\Users\kmell\Source\Repos\Joole_Project\Joole_DataAccess\obj\Debug\Joole_DataAccess.pdb
