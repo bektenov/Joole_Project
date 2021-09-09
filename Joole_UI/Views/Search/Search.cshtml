@@ -1,40 +1,67 @@
 ﻿
+<style type="text/css">
+    .auto-style1 {
+        width: 342px;
+    }
+    .auto-style2 {
+        width: 74px;
+        height: 74px;
+    }
+</style>
 @{
     ViewBag.Title = "Search";
 }
 
 
+
+@Styles.Render("~/Content/images/Search.css");
 <head>
     <link rel="#" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="~/Content/Search.css">
+    <link rel="stylesheet" href="~/Content/images/Search.css">
 
 
 </head>
 
-<img src="~/Content/Images/JooleImg.png" id="jooleImg" margin-top="100px" />
+
+    <img src="~/Content/Images/jooleImg.png" id="jooleImg" margin-top="100px"  />
 
 
-<h3> Building Product Selection Platform</h3>
+    <h3> Building Product Selection Platform</h3>
 
 
 
-<div class="d-flex flex-row">
+    <div class="d-flex flex-row">
 
-    <div class="dropdown p-2">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-            Category
-            <span class="caret"></span>
-        </button>
-        @* for each here with our model data *@
-        <ul class="dropdown-menu " id="Category">
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">JavaScript</a></li>
-        </ul>
+        <div class="dropdown p-2">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                Category
+                <span class="caret"></span>
+            </button>
+                <ul class="dropdown-menu " id="Category">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            
+           
+            &nbsp;<input type="search" id="searchBox" class="auto-style1"/>
+                    
+                <button type="button" class="btn btn-primary">
+                    <i class="fas fa-search">&nbsp; </i>
+                </button>
+            &nbsp;
+
+            <div class="auto-style2">
+                <div class="form-outline">
+                    &nbsp;</div>
+            </div>
+            </div>
+
+
+
+        
+
 
     </div>
 
-
-</div>
